@@ -1,10 +1,7 @@
-from django.conf import settings
-from django.http import FileResponse, HttpResponse
+
+from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404
 
-import io
-from django.http import FileResponse
-from reportlab.pdfgen import canvas
 from django.template.loader import render_to_string
 import weasyprint
 
